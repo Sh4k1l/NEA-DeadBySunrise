@@ -1,4 +1,3 @@
-from posixpath import splitext
 import pygame
 from Settings import *
 from Obstacle import *
