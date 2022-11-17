@@ -20,10 +20,10 @@ class Game:
                     pygame.quit()
                     sys.exit()
 
-            self.screen.fill('black')
-            self.world.run()
-            pygame.display.update()
-            self.clock.tick(fps)
+            self.screen.fill('black') # Fills background with the colour 'black'
+            self.world.run() # Creates the world
+            pygame.display.update() # Continously updates screen
+            self.clock.tick(fps) # Controls frame rate
 
 if __name__ == '__main__':
     game = Game()
